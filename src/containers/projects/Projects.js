@@ -55,12 +55,20 @@ export default function Projects() {
               );
             })}
           </div>
-          <Button
-            text={"More Projects"}
-            className="project-button"
-            href={socialMediaLinks.github}
-            newTab={true}
-          />
+          <div className="project-buttons">
+            <Button
+                text={"More Projects"}
+                className="project-button"
+                href={socialMediaLinks.github}
+                newTab={true}
+              />
+            <Button id="Donate"
+                text={"Donate"}
+                className="project-button"
+                href={"https://www.paypal.com/donate?hosted_button_id=LD8EEK24AH2PL"}
+                newTab={true}
+              />
+          </div>
         </div>
       </Suspense>
     );

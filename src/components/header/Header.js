@@ -39,6 +39,9 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          <li>
+            <a href="#opensource">Donate</a>
+          </li>
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
